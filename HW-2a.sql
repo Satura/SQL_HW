@@ -187,9 +187,6 @@ FROM sales_reciepts
 
 /*UPDATE product 
 SET current_retail_price = REPLACE(current_retail_price,'$','')
-/* вот не считалось с обозначением доллара нормально, разницу выводил 0;
-пока искала что не так, обнаружила, что если запросить максимальную цену по всей таблице, 
-выводит точно не максимум ($9.50); да и в примере в PDF без $ */
 
 /*SELECT 
 	product_category,
